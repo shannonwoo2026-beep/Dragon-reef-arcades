@@ -1,0 +1,9 @@
+{
+  "name": "dragon-reef-arcade",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Entertainment-credit arcade demo with selectable fish and slot games",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=18"}
+}

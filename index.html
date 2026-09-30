@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Dragon Reef Arcade</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="brand">🐉 DRAGON REEF <span>ARCADE</span></div><div class="wallet"><small>ENTERTAINMENT CREDITS</small><b id="credits">5,000</b></div></header>
+<nav><button class="tab active" data-filter="all">ALL GAMES</button><button class="tab" data-filter="fish">FISH GAMES</button><button class="tab" data-filter="slots">SLOT GAMES</button><button id="historyBtn">HISTORY</button></nav>
+<main>
+<section id="hero"><div><p>DRAGON REEF ARCADE</p><h1>CHOOSE YOUR GAME</h1><span>Entertainment-credit demo • No cash value</span></div></section>
+<section><h2>Game Lobby</h2><div id="grid" class="grid"></div></section>
+</main>
+<div id="modal" class="modal hidden"><div class="panel">
+<div class="panelTop"><button id="back">← Lobby</button><h2 id="gameTitle"></h2><div class="wallet compact">Credits <b id="gameCredits">0</b></div></div>
+<div id="gameArea"></div></div></div>
+<div id="history" class="modal hidden"><div class="historyPanel"><button id="closeHistory">✕</button><h2>Credit History</h2><div id="historyRows"></div><button id="reset">Reset demo wallet</button></div></div>
+<footer>Dragon Reef Arcade • Entertainment credits have no monetary value.</footer>
+<script src="app.js"></script>
+</body></html>
